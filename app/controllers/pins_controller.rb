@@ -9,11 +9,11 @@ def show
 end
 
 def new
-	@pin = current_user.pins.build
+	@pin = Pin.new
 end
 
 def create
-	@pin = current_user.pins.build(pin_params)
+	@pin = Pin.new(pin_params)
 
 	if @pin.save
 		redirect_to @pin, notice: "Pin successfully posted!"
