@@ -4,6 +4,7 @@ gem 'bootstrap-sass', '~> 3.3.1.0'
 gem 'simple_form', '~> 3.1.0'
 gem 'devise', '~> 3.4.1'
 gem 'paperclip', '~> 4.2.1'
+gem 'masonry-rails', '~> 0.2.4'
 gem 'haml-rails', :group => :development
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
