@@ -1,28 +1,21 @@
-== README
+Pinteresting: A Pinterest Clone
+== 
+* Pinterest clone based on the 12 apps in 12 weeks tutorial, which has user authentication with devise and ability to vote on pins.  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+*** In this version, I intend to add some features starting with geolocation display for users pins.  This is still a work in progress as I am going through the tutorial. ***
 
-Things you may want to cover:
+* Made Using:
+Ruby on Rails 4.2.0 with Haml
 
-* Ruby version
+* Gems used (so far):
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+gem 'haml', '~> 4.0.6'
+gem 'bootstrap-sass', '~> 3.3.1.0'
+gem 'simple_form', '~> 3.1.0'
+gem 'devise', '~> 3.4.1'
+gem 'paperclip', '~> 4.2.1'
+gem 'masonry-rails', '~> 0.2.4'
+gem 'haml-rails'
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
