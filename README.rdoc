@@ -1,13 +1,14 @@
+==
 Pinteresting: A Pinterest Clone
-== 
-* Pinterest clone based on the 12 apps in 12 weeks tutorial, which has user authentication with devise and ability to vote on pins.  
+
+Pinterest clone based on the 12 apps in 12 weeks tutorial, which has user authentication with devise and ability to vote on pins.  
 
 *** In this version, I intend to add some features starting with geolocation display for users pins.  This is still a work in progress as I am going through the tutorial. ***
 
-* Made Using:
+Made Using:
 Ruby on Rails 4.2.0 with Haml
 
-* Gems used (so far):
+Gems used (so far):
 
 gem 'haml', '~> 4.0.6'
 gem 'bootstrap-sass', '~> 3.3.1.0'
