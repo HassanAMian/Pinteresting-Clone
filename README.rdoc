@@ -17,6 +17,6 @@ Gems used (so far):
 * gem 'paperclip', '~> 4.2.1'
 * gem 'masonry-rails', '~> 0.2.4'
 * gem 'haml-rails'
-
+* gem 'acts_as_votable', '~> 0.10.0'
 
 
