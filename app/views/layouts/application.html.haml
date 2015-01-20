@@ -1,14 +1,14 @@
 !!! 5
 %html
 %head
-	%title Very Pinteresting!
+	%title Snapshare
 	= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
 	= javascript_include_tag 'application', 'data-turbolinks-track' => true
 	= csrf_meta_tags
 %body
 	%nav.navbar.navbar-inverse
 		.container
-			.navbar-brand= link_to "PINTERESTING", root_path
+			.navbar-brand= link_to "SNAPSHARE!", root_path
 
 			- if user_signed_in?
 				%ul.nav.navbar-nav.navbar-right
