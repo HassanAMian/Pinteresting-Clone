@@ -3,7 +3,7 @@ Pinteresting: A Pinterest Clone
 
 Pinterest clone based on the 12 apps in 12 weeks tutorial, which has the ability for users to upload photos, user authentication with devise, and ability to vote on pins.  
 
-*** In this version, I intend to add some features starting with geolocation display for users pins.  This is still a work in progress as I am going through the tutorial.  I also intend on writing tests for this app, as the tutorial and sample code do not have any tests for this app. ***
+*** Custom Features: AWS hosting for heroku, geolocation, comment section, tests ***
 
 Made Using:
 Ruby on Rails 4.2.0 with Haml
@@ -18,5 +18,6 @@ Gems used (so far):
 * gem 'masonry-rails', '~> 0.2.4'
 * gem 'haml-rails'
 * gem 'acts_as_votable', '~> 0.10.0'
-
+* gem 'rails_12factor'
+* gem 'aws-sdk'
 
