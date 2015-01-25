@@ -20,4 +20,4 @@ Gems used (so far):
 * gem 'acts_as_votable', '~> 0.10.0'
 * gem 'rails_12factor'
 * gem 'aws-sdk'
-
+* gem 'acts_as_commentable', '~> 4.0.2'
