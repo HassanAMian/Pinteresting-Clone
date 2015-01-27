@@ -36,8 +36,14 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    acts_as_commentable (4.0.2)
     acts_as_votable (0.10.0)
     arel (6.0.0)
+    aws-sdk (1.61.0)
+      aws-sdk-v1 (= 1.61.0)
+    aws-sdk-v1 (1.61.0)
+      json (~> 1.4)
+      nokogiri (>= 1.4.4)
     bcrypt (3.1.9)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
@@ -69,6 +75,9 @@ GEM
       responders
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
+    dotenv (1.0.2)
+    dotenv-rails (1.0.2)
+      dotenv (= 1.0.2)
     erubis (2.7.0)
     execjs (2.2.2)
     globalid (0.3.0)
@@ -202,11 +211,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  acts_as_commentable (~> 4.0.2)
   acts_as_votable (~> 0.10.0)
+  aws-sdk
   bootstrap-sass (~> 3.3.1.0)
   byebug
   coffee-rails (~> 4.1.0)
   devise (~> 3.4.1)
+  dotenv-rails
   haml (~> 4.0.6)
   haml-rails
   jbuilder (~> 2.0)
