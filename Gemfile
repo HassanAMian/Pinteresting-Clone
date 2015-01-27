@@ -11,6 +11,7 @@ gem 'haml-rails', :group => :development
 gem 'rails_12factor'
 gem 'aws-sdk'
 gem 'acts_as_commentable', '~> 4.0.2'
+gem 'dotenv-rails', :groups => [:development, :test]
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
