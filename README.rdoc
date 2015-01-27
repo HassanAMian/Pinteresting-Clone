@@ -3,8 +3,8 @@ Pinteresting: A Pinterest Clone
 
 Pinterest clone based on the 12 apps in 12 weeks tutorial, which has the ability for users to upload photos, user authentication with devise, and ability to vote on pins.  
 
-*** Custom Features: AWS hosting for heroku, geolocation, comment section, tests ***
-
+*** Custom Features: AWS hosting for heroku ***
+*** Coming Soon: , geolocation, comment section, tests ***
 Made Using:
 Ruby on Rails 4.2.0 with Haml
 
