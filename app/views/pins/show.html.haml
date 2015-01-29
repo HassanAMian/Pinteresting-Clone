@@ -15,7 +15,7 @@
 				.col-md-6
 					.btn-group.pull-right
 						= link_to like_pin_path(@pin), method: :put, class: "btn btn-default" do
-							%span.glyphicon.glyphicon-heart
+							%span.glyphicon.glyphicon-thumbs-up
 							= @pin.get_upvotes.size
 						- if current_user == @pin.user
 							= link_to 'Edit', edit_pin_path, class: "btn btn-default"
